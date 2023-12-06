@@ -30,6 +30,12 @@ const Img = styled.img`
   width:50px;
   height:50px;
   }
+  @media screen and (max-width:420px){
+    width:50px;
+    height:50px;
+    
+}
+   
 `
 const Palavra = styled.figcaption`
     color:white;

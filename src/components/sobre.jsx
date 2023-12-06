@@ -16,6 +16,9 @@ const Headerstyled = styled.header`
     align-items:center;
     flex-direction:column;
     background-color:#010326;
+    @media screen and (max-width:420px){
+        height:100vh;
+    }
     `
 
     const Font = styled.h3`
@@ -23,8 +26,12 @@ const Headerstyled = styled.header`
     @media screen and (max-width:360px){
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size:17px;
-  
     }
+    @media screen and (max-width:420px){
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:17px;
+    }    
+
     `
 
 const Secao = styled.section`
@@ -41,8 +48,11 @@ const Secao = styled.section`
 @media screen and (max-width:360px){
     width:20em;
     height:21em;
-    margin-bottom:0px;
-  
+    margin-bottom:0px;}
+@media screen and (max-width:420px){
+    width:20em;
+    height:21em;
+    margin-bottom:0px; 
 }
 `
 // animação

@@ -83,7 +83,6 @@ const ListaResponsiva = styled.ul`
  @media screen and (max-width:360px){
   display:flex;
   width:65%; 
-  border:solid blue;
 }  
 @media screen and (max-width:420px){
     display:flex;

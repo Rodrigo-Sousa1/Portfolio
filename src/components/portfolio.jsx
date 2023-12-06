@@ -17,9 +17,13 @@ const Headerstyled = styled.header`
      display:flex;
 @media screen and (max-width:360px){
     flex-direction:column;
-    
-  
-}    
+ 
+}  
+
+@media screen and (max-width:420px){
+    flex-direction:column;
+ 
+} 
    
 `
 const Secao = styled.section`
@@ -33,6 +37,12 @@ const Secao = styled.section`
     height:28em;
      
 }
+
+@media screen and (max-width:420px){
+    width:100%;
+    height:28em;
+ 
+} 
 `
 const Texto = styled.section`
     width:45%;
@@ -44,6 +54,12 @@ const Texto = styled.section`
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height:100px;
 }
+@media screen and (max-width:420px){
+   font-size:10px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   height:100px;
+}
+
 `
 
 const Secao2 = styled.section`
@@ -54,6 +70,11 @@ const Secao2 = styled.section`
 @media screen and (max-width:360px){
     height:20em;
     width:100%;
+}
+@media screen and (max-width:420px){
+   height:20em;
+   width:100%;
+ 
 }
 `
 const Img = styled.img`
@@ -75,6 +96,12 @@ const Img = styled.img`
    padding:2px;
   
 }
+@media screen and (max-width:420px){
+   width:150px;
+   height:100px;
+   padding:2px;
+ 
+}
 `
 const Fig = styled.img`
     width:35px;
@@ -83,6 +110,11 @@ const Fig = styled.img`
    width:20px;
    height:20px;
   
+}
+@media screen and (max-width:420px){
+    width:20px;
+    height:20px;
+ 
 }
 `
 

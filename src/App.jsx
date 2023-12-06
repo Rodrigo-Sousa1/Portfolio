@@ -30,7 +30,7 @@ const NavBar = styled.nav`
 @media screen and (max-width:360px){
     height:90px;
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     height:100px;
 }
 
@@ -45,7 +45,7 @@ const Lista = styled.ul`
     @media screen and (max-width:360px){
       display:none; 
     } 
-    @media screen and (min-width:390px){
+    @media screen and (max-width:420px){
     display:none;
 }
     `
@@ -63,8 +63,9 @@ const Botao = styled.button`
     background-color:green;
     color:white;
     margin:5px;
+    position:absolute;
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     display:flex;
     justify-content:center;
     align-items:center;
@@ -79,12 +80,12 @@ const Botao = styled.button`
 
 const ListaResponsiva = styled.ul`
    display:none;
-@media screen and (max-width:360px){
+ @media screen and (max-width:360px){
   display:flex;
-  flex-direction:column;
-  width:60%;
-} 
-@media screen and (min-width:390px){
+  width:65%; 
+  border:solid blue;
+}  
+@media screen and (max-width:420px){
     display:flex;
     width:125%;
     height:100px;  
@@ -100,7 +101,7 @@ const DivResponsivo = styled.div`
   width:100%;
   height:90px;
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     display:flex;
     width:100%;
     height:120px;
@@ -114,7 +115,7 @@ const SecaoResponsivo = styled.section`
   align-items:center;
   height:75px; 
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     display:flex;
     align-items:center;
     height:60px;
@@ -129,7 +130,7 @@ const SecaoResponsivo2 = styled.section`
   align-items:flex-start;
   width:70%;
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     display:flex;
     flex-direction:row-reverse;
     align-items:flex-start;
@@ -157,7 +158,7 @@ const Li = styled(Link)`
     font-size:16px;
     padding:2px;
 }
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     font-size:17px;
     padding:2px;
   }
@@ -173,7 +174,7 @@ const Logo1 = styled.img`
     width:60px;
     height:60px; 
 } 
-@media screen and (min-width:390px){
+@media screen and (max-width:420px){
     width:60px;
     height:60px;
 }
@@ -185,7 +186,7 @@ const Secao1 = styled.section`
     @media screen and (max-width:360px){
    display:none;
   }
-  @media screen and (min-width:390px){
+  @media screen and (max-width:420px){
     display:none;
 }
 `

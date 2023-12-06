@@ -32,24 +32,6 @@ const Secao = styled.section`
 }
 
 `
-// const Secao2 = styled.section`
-//     width:50%;
-//     display:flex;
-//     justify-content:space-evenly;
-//     margin-top: 50px;
-// `
-// const Logos = styled.img`
-//     width:50px;
-//     height:50px;
-// @media screen and (max-width:360px){
-//     width:35px;
-//     height:35px;
-//     margin:5px;
-  
-// }
-
-// `
-
 export default function Inicio() {
     return (
         <Headerstyled>
@@ -61,16 +43,7 @@ export default function Inicio() {
                 <h3>Desenvolvedor Front End</h3>
 
             </Secao>
-{/* 
-            <Secao2>
-                <Logos src={Html} alt="Html" />
-                <Logos src={Css} alt="Css3" />
-                <Logos src={JvS} alt="javascrpit" />
-                <Logos src={Rea} alt="React.js" />
-                <Logos src={Sass} alt="Sass" />
-                <Logos src={Sc} alt="Styled components" />
 
-            </Secao2> */}
         </Headerstyled>
     )
 }

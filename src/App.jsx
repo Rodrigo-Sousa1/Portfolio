@@ -30,6 +30,10 @@ const NavBar = styled.nav`
 @media screen and (max-width:360px){
     height:90px;
 }
+@media screen and (min-width:390px){
+    height:100px;
+}
+
    
 `
 const Lista = styled.ul`
@@ -41,6 +45,9 @@ const Lista = styled.ul`
     @media screen and (max-width:360px){
       display:none; 
     } 
+    @media screen and (min-width:390px){
+    display:none;
+}
     `
 // Display hambuguer
 
@@ -57,6 +64,17 @@ const Botao = styled.button`
     color:white;
     margin:5px;
 }
+@media screen and (min-width:390px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40px;
+    width:40px;
+    font-size:20px;
+    background-color:green;
+    color:white;
+    position:absolute;
+}
  `
 
 const ListaResponsiva = styled.ul`
@@ -65,7 +83,15 @@ const ListaResponsiva = styled.ul`
   display:flex;
   flex-direction:column;
   width:60%;
-} `
+} 
+@media screen and (min-width:390px){
+    display:flex;
+    width:125%;
+    height:100px;  
+    
+}
+
+`
 const DivResponsivo = styled.div`
   display:none;
 @media screen and (max-width:360px){
@@ -74,16 +100,25 @@ const DivResponsivo = styled.div`
   width:100%;
   height:90px;
 }
+@media screen and (min-width:390px){
+    display:flex;
+    width:100%;
+    height:120px;
+    justify-content:space-around;
+}
 `
 const SecaoResponsivo = styled.section`
     display:none;
 @media screen and (max-width:360px){
   display:flex;
   align-items:center;
-  height:75px;
-  
-  
-  
+  height:75px; 
+}
+@media screen and (min-width:390px){
+    display:flex;
+    align-items:center;
+    height:60px;
+   
 }
 `
 const SecaoResponsivo2 = styled.section`
@@ -94,6 +129,12 @@ const SecaoResponsivo2 = styled.section`
   align-items:flex-start;
   width:70%;
 }
+@media screen and (min-width:390px){
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+    width:70%;
+}
 
 `
 const Linha = styled.li`
@@ -103,6 +144,7 @@ const Linha = styled.li`
     justify-content:flex-start;
     align-items:flex-end;
     font-size:20px;
+    
   `
 const Li = styled(Link)`
     list-style:none;
@@ -114,8 +156,11 @@ const Li = styled(Link)`
   @media screen and (max-width:360px){
     font-size:16px;
     padding:2px;
-    
 }
+@media screen and (min-width:390px){
+    font-size:17px;
+    padding:2px;
+  }
   `
 const Logo1 = styled.img`
     width:65px;
@@ -126,13 +171,12 @@ const Logo1 = styled.img`
     border: solid green;
   @media screen and (max-width:360px){
     width:60px;
-    height:60px;
-    
-    
-
-    
-  
+    height:60px; 
 } 
+@media screen and (min-width:390px){
+    width:60px;
+    height:60px;
+}
 `
 const Secao1 = styled.section`
     width:100%;
@@ -141,6 +185,9 @@ const Secao1 = styled.section`
     @media screen and (max-width:360px){
    display:none;
   }
+  @media screen and (min-width:390px){
+    display:none;
+}
 `
 
 function App() {

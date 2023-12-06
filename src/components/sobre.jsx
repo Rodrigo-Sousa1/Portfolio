@@ -37,7 +37,7 @@ const Secao = styled.section`
     justify-content:center;
     box-shadow:3px 3px 3px #5B83A6;
     background-color:#F2F2F2;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 @media screen and (max-width:360px){
     width:20em;
     height:21em;
@@ -77,9 +77,10 @@ const Gif = styled.section`
 
 const Secao2 = styled.section`
     width:100%;
+    height:120px;
     display:flex;
     justify-content:space-evenly;
-   
+    align-items:center;
 `
 const Logos = styled.img`
     width:50px;
@@ -93,6 +94,7 @@ const Logos = styled.img`
 `
 const Text = styled.h3`
     font-size:25px;
+    margin:10px;
     color:white;
 @media screen and (max-width:360px){
   font-size:20px;

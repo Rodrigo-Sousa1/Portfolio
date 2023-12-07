@@ -50,8 +50,8 @@ const Secao = styled.section`
     height:21em;
     margin-bottom:0px;}
 @media screen and (max-width:420px){
-    width:20em;
-    height:21em;
+    width:80%;
+    height:50vh;
     margin-bottom:0px; 
 }
 `
@@ -73,9 +73,8 @@ const Img = styled.img`
   }  
 `
 const Gif = styled.section`
-    width:45em;
+    width:100%;
     height:3em;
-    
     overflow:hidden;
  @media screen and (max-width:360px){
     width:100%;
@@ -87,7 +86,7 @@ const Gif = styled.section`
 
 const Secao2 = styled.section`
     width:100%;
-    height:120px;
+    height:15vh;
     display:flex;
     justify-content:space-evenly;
     align-items:center;

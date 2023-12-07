@@ -15,6 +15,10 @@ const Headerstyled = styled.header`
     align-items:center;
     background-color:#010326;
     flex-direction:column;
+@media screen and (max-width:420px){
+  height:100vh;
+  width:100%;
+}
 `
 const Secao = styled.section`
     border:solid;
@@ -27,8 +31,11 @@ const Secao = styled.section`
     box-shadow:3px 3px 3px #5B83A6;
     background-color:white;
 @media screen and (max-width:360px){
-  width:18em;
+  width:100%;
   height:12em;
+}
+@media screen and (max-width:420px){
+  width:100%;
 }
 
 `
@@ -38,7 +45,7 @@ export default function Inicio() {
 
             <Secao>
 
-                <h2>Ola, me chamo</h2>
+                <h2>Olá, me chamo</h2>
                 <h1>Rodrigo Sousa</h1>
                 <h3>Desenvolvedor Front End</h3>
 

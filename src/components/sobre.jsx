@@ -73,10 +73,15 @@ const Img = styled.img`
   }  
 `
 const Gif = styled.section`
-    width:100%;
+    width:53%;
     height:3em;
     overflow:hidden;
  @media screen and (max-width:360px){
+    width:100%;
+    height:3em;
+  
+}
+@media screen and (max-width:420px){
     width:100%;
     height:3em;
   

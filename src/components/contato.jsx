@@ -65,7 +65,7 @@ export default function Contato() {
                     <Palavra>E-mail</Palavra>
                 </figure>
                 <figure>
-                    <a href="../assets/curriculo rodrigo sousa.pdf" download={true} ><Img src={Download} alt="Download" /></a>
+                    <a href="../assets/curriculo-rodrigo-sousa.pdf" download={true} ><Img src={Download} alt="Download" /></a>
                     <Palavra>Curriculo</Palavra>
                 </figure>
             </Secao>

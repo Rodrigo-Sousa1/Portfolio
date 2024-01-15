@@ -157,7 +157,7 @@ const Li = styled(Link)`
     font-size:16px;
     padding:2px;
 }
-@media screen and (max-width:420px){
+  @media screen and (max-width:420px){
     font-size:17px;
     padding:2px;
   }

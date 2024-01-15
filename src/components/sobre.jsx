@@ -15,7 +15,8 @@ const Headerstyled = styled.header`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    background-color:#010326;
+    background: rgb(0,1,13);
+    background: linear-gradient(0deg, rgba(0,1,13,1) 34%, rgba(1,2,26,1) 58%, rgba(1,3,38,1) 67%);
     @media screen and (max-width:420px){
         height:100vh;
     }

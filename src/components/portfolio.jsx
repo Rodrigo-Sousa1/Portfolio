@@ -13,7 +13,8 @@ import Sc from '../assets/styled-components.png'
 
 const Headerstyled = styled.header`
     width:100%;
-    background-color:#010326;
+    background: rgb(0,1,13);
+    background: linear-gradient(0deg, rgba(0,1,13,1) 34%, rgba(1,2,26,1) 58%, rgba(1,3,38,1) 67%);
      display:flex;
 @media screen and (max-width:360px){
     flex-direction:column;

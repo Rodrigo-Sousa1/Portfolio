@@ -17,6 +17,7 @@ const EstiloGlobal = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 `
@@ -25,7 +26,7 @@ const NavBar = styled.nav`
     display:flex;
     align-items:center;
     justify-content:flex-start;
-    background-color:#00010D;
+    background-color:#010326;
     flex-direction:column ;
 @media screen and (max-width:360px){
     height:90px;
@@ -40,6 +41,7 @@ const Lista = styled.ul`
     width:40%;
     height:40%;
     display:flex;
+    align-items:center;
     justify-content:flex-start;
     justify-content: space-evenly;
     @media screen and (max-width:360px){

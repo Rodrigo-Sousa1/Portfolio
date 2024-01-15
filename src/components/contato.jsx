@@ -6,7 +6,8 @@ import Download from '../assets/download.png'
 
 
 const Headerstyled = styled.header`
-    background-color:#010326;
+     background: rgb(0,1,13);
+    background: linear-gradient(0deg, rgba(0,1,13,1) 34%, rgba(1,2,26,1) 58%, rgba(1,3,38,1) 67%);
     height:80vh;
     display:flex;
     align-items:center;
@@ -57,7 +58,7 @@ export default function Contato() {
                     <Palavra>Github</Palavra>
                 </figure>
                 <figure>
-                    <a href="https://www.linkedin.com/in/rodrigo-sousa-b531191bb/"target="_blank"><Img src={Linkedin} alt="Linkedin" /></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-sousa-b531191bb/" target="_blank"><Img src={Linkedin} alt="Linkedin" /></a>
                     <Palavra>Linkedin</Palavra>
                 </figure>
                 <figure>

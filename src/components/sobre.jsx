@@ -131,7 +131,7 @@ const MoverGif=() => {
             </Gif>
             <Secao>
                 <Font>
-                Olá, meu nome é Rodrigo Sousa. Resido na cidade de Fortaleza/CE. Sou formado no curso tecnólogo de Gestão de Serviços Jurídicos e Notariais pela Universidade Paulista (Unip), concluído no ano de 2021. Atualmente, exerço atividades na área de vendas como representante comercial pela empresa Pet Bontrato. Me especializo em Front End pela instituição Vai Na Web, onde já possuo conhecimento em HTML5, CSS3, React.js, Styled Components, JavaScript e Sass. </Font>
+                Olá, meu nome é Rodrigo Sousa. Resido na cidade de Fortaleza/CE. Sou formado no curso tecnólogo de Gestão de Serviços Jurídicos e Notariais pela Universidade Paulista (Unip), concluído no ano de 2021. Atualmente, exerço atividades na área de vendas como representante comercial pela empresa Pet Bontrato. Concluí o curso em Front End pela instituição Vai Na Web no ano de 2023, onde obtive conhecimento em HTML5, CSS3, React.js, Styled Components, JavaScript e Sass. Concluí o curso de Fundamentos em Scrum pela instituição ScrumStudy no ano de 2023. Concluí também o curso de LGPD pela Fundação Bradesco no ano de 2024. </Font>
             </Secao>
                 <Text>Skills</Text>
             <Secao2>
